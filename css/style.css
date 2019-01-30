@@ -78,12 +78,34 @@ ul {
     margin-right: 0px;
     padding: 10px;
 }
-
+.welcome {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+}
 .side {
     background-color: #ffffff;
     margin: 0 auto;
     margin-top: 10px;
     padding: 10px;
+    height: 100%;
+}
+.thumbnail {
+    margin: 0 auto;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.img-thumbnail {
+      border: 1px solid #ddd; /* Gray border */
+      border-radius: 4px;  /* Rounded border */
+      padding: 5px; /* Some padding */
+      width: 100%; /* Set a small width */
+      margin: 0 auto;
+}
+.caption {
+    text-align: center;
 }
 
 footer {
