@@ -51,7 +51,7 @@ Here users can look at my image galleries
 Here users can contact me by filling out the form with regards to queries about
 the site, my work or any prospective work they may have in mind.
 
-### Update area - 
+### Latest Works panel - 
 
 This will be to the right of the main content area an all pages, which will
 contain info about current projects/work.
