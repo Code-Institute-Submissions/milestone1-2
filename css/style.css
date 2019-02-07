@@ -125,6 +125,8 @@ ul {
     margin-bottom: 30px;
 }
 
+/*================================== Side Panel */
+
 .caption {
     font-size: 12px;
     font-style: italic;
@@ -163,6 +165,7 @@ ul {
 
 .thumb {   
     border-radius: 0;
+    height: 100%;
 }
 
 .caption {
@@ -174,11 +177,6 @@ ul {
     line-height: 20px;
 }
 /*================================== Image Galleries */
-
-.gallery-title {
-    margin: 20px 15px 50px 15px; /* T R B L */
-
-}
 
 .info {
     margin-top: 20px;
@@ -196,22 +194,38 @@ ul {
     border-bottom: 1px solid #415366;
     border-right: 1px solid #415366;
 }
+.gallery-title {
+    margin: 20px 15px 50px 15px; /* T R B L */
+}
 
 .image-margin {
     height: 400px;
     overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .image-margin img {
     height: auto;
     width: 100%;
+    margin-bottom: 0px;
 }
+
+.caption {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
 .caption-title {
     font-weight: 800;
     text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
 }
 .caption-text {
     font-style: italic;
+    font-size: 12px;
+    line-height: 15px;
 }
 
 /*================================== Contact Form */
@@ -250,12 +264,13 @@ footer {
 .contact-link {
     color: inherit;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .contact-link:hover {
     text-decoration: none;
     color: #0099ff;
+    font-weight: 600;
 }
 
 .social-links li a i {
@@ -295,4 +310,21 @@ footer {
     .list-inline {
         font-size: 24px;
     }
+}
+
+@media(min-width: 992px ) {
+    
+.image-margin {
+    height: 600px;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.image-margin img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 0px;
+}
+    
 }
