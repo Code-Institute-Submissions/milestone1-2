@@ -30,7 +30,6 @@ about sales or a commission.
 
 As a user I want to be able to view a gallery of the owner's work.
 
-
 The project will use Mobile First so people on the move will have the same 
 experience as those who are not.
 
@@ -58,7 +57,8 @@ contain info about current projects/work.
 
 ## Technologies Used
 
-The project will use HTML5 and CSS3.  It will make use of Bootstrap.
+- [Bootstrap] (https://getbootstrap.com/docs/3.3/getting-started/)
+    - The project uses **Bootstrap** to utiise the grid system and make it easy to be mobile first.
 
 ## Testing
 
@@ -68,7 +68,11 @@ The project will use HTML5 and CSS3.  It will make use of Bootstrap.
 
 ### Content
 
+All content on the site was written by myself.
+
 ### Media
+
+All images on the site are taken and owned by myself.
 
 
 

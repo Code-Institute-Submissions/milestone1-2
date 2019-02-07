@@ -1,13 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Arapey:100,200,300,400,500,600,700|ZCOOL+XiaoWei:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Arapey:100,200,300,400,500,600,700|ZCOOL+XiaoWei:100,200,300,400,500,600,700|Ubuntu:100,200,300,400,500,600,700');
 
 /*================================== Colour Scheme */
 
 body {
-    background-color: #e2e5e8
+    background-color: #e2e5e8;
 }
 
 header, footer {
     background-color: #415366;
+}
+
+/*================================== Typography */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
 }
     
 /*================================== Header */
@@ -114,7 +120,7 @@ ul {
 }
 
 .photo {
-    border: 1px solid #ddd;
+    border: 1px solid #a7b9cc;
     padding: 5px;
     margin-bottom: 30px;
 }
@@ -139,18 +145,19 @@ ul {
     border-bottom: 1px solid #415366;
     border-right: 1px solid #415366;
 }
+
 .thumbnail {
     margin: 0 auto;
     height: auto;
     padding: 5px;
     margin-bottom: 10px;
+    border: 1px solid #a7b9cc;
 }
 
 .img-thumbnail {
-      border: 1px solid #ddd; /* Gray border */
-      border-radius: 4px;  /* Rounded border */
-      padding: 5px; /* Some padding */
-      width: 100%; /* Set a small width */
+      border: 1px solid #a7b9cc; 
+      padding: 5px; 
+      width: 100%; 
       margin: 0 auto;
 }
 
@@ -160,6 +167,75 @@ ul {
 
 .caption {
     text-align: center;
+}
+.caption-title {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+}
+/*================================== Image Galleries */
+
+.gallery-title {
+    margin: 20px 15px 50px 15px; /* T R B L */
+
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.gallery {
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-top: 10px solid #415366;
+    border-left: 1px solid #415366;
+    border-bottom: 1px solid #415366;
+    border-right: 1px solid #415366;
+}
+
+.image-margin {
+    height: 400px;
+    overflow: hidden;
+}
+
+.image-margin img {
+    height: auto;
+    width: 100%;
+}
+.caption-title {
+    font-weight: 800;
+    text-align: center;
+}
+.caption-text {
+    font-style: italic;
+}
+
+/*================================== Contact Form */
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+    margin-bottom: 100px;
+}
+
+input, select, textarea {
+    margin-top: 10px;
+}
+
+select { 
+    color: inherit;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #0099ff;
+    color: #fafafa;
 }
 
 /*================================== Footer */
@@ -198,7 +274,8 @@ footer {
 }
 
 .social-links li a i:hover {
-    background-color: #000000;
+    color: #0099ff;
+    background-color: #ffffff;
 }
 
 /*================================== Media Queries */
