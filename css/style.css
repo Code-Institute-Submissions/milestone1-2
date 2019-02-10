@@ -87,7 +87,7 @@ ul {
 }
 
 .menu-item a:hover {
-        color: #415366;
+    color: #ffffff;
 }
 
 /*================================== Main Section */
@@ -171,6 +171,7 @@ ul {
 .caption {
     text-align: center;
 }
+
 .caption-title {
     font-weight: 800;
     font-size: 15px;
@@ -194,6 +195,7 @@ ul {
     border-bottom: 1px solid #415366;
     border-right: 1px solid #415366;
 }
+
 .gallery-title {
     margin: 20px 15px 50px 15px; /* T R B L */
 }
@@ -325,10 +327,10 @@ footer {
     margin-bottom: 20px;
 }
 
-.image-margin img {
+    .image-margin img {
     height: auto;
     width: 100%;
     margin-bottom: 0px;
-}
+    }
     
 }
