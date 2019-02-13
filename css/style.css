@@ -54,40 +54,53 @@ h1, h2 {
 
 /*================================== Navbar */
 
-ul {
-    margin-top: 20px;
+.navX {
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 0;
 }
 
-.menu-item {
+ul {
+    margin: 20px 0 0 0;
+}
+
+.nav {
+    margin-bottom: 0;
+}
+
+.nav > li > a {
+    padding: 10px 0 0 0;
+    margin: 0;
     font-family: 'ZCOOL XiaoWei', serif;
     font-weight: 100;
     font-size: 25px;
     height: 40px;
     text-align: center;
-    padding: 0;
+    color: #ffffff;
+    text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-.menu-item a {
-    width: 100%;
-    text-decoration: none;
+.nav > li > a:hover {
     color: #ffffff;
-}
-
-.menu-item span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.menu-item:hover {
     background-color: #0099ff;
 }
 
-.menu-item a:hover {
-    color: #ffffff;
+.navbar-toggle {
+    border: 1px solid #a7b9cc;
+    margin-right: 5px;
+    }
+
+.icon-bar {
+    color: #a7b9cc;
+}
+
+.container-fluid > .navbar-collapse {
+    margin: 0;
+}
+
+.collapse {
+    margin: 0;
 }
 
 /*================================== Main Section */
@@ -308,10 +321,7 @@ footer {
     .name, .title {
         font-size: 32px ; 
     }
-    .mobile-link {
-        height: 100%;
-        margin-bottom: 30px;
-    }
+
     .list-inline {
         font-size: 24px;
     }
@@ -326,7 +336,7 @@ footer {
     margin-bottom: 20px;
 }
 
-    .image-margin img {
+.image-margin img {
     height: auto;
     width: 100%;
     margin-bottom: 0px;
