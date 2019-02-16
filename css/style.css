@@ -191,6 +191,7 @@ ul {
     font-size: 15px;
     line-height: 20px;
 }
+
 /*================================== Image Galleries */
 
 .info {
@@ -246,6 +247,43 @@ ul {
     line-height: 15px;
 }
 
+/*================================== Modal */
+
+.modal-dialog {
+    width: 90%;
+    height: auto;
+}
+
+.modal-header {
+    background-color: #daecff;
+    border-bottom: 1px solid #a7b9cc;
+}
+
+.img-modal {
+    width: auto;
+}
+.modal-text {
+    margin-top: 10px;
+}
+
+.modal-text > p {
+    font-size: 14px;
+}
+
+.modal-footer {
+    background-color: #daecff;
+    border-top: 1px solid #a7b9cc;
+}
+
+.modal-button {
+    background-color: #0099ff;
+    color: #ffffff;
+}
+
+.modal-button:hover {
+    background-color: #415366;
+    color: #ffffff;
+}
 
 /*================================== Contact Form */
 
