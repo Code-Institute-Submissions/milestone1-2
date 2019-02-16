@@ -223,20 +223,12 @@ ul {
     height: 400px;
     margin-bottom: 10px;
 }
-/*
-.image-margin img {
-    height: auto;
-    width: 100%;
-    margin-bottom: 0px;
-/*    max-height: 400px;*/
-
-}
-*/
 
 .caption {
     height: auto;
     padding-top: 0px;
     margin-top: 0px;
+    text-decoration: none;
 }
 
 .caption-title {
@@ -244,11 +236,23 @@ ul {
     text-align: center;
     font-size: 18px;
     margin-top: 0px;
+    text-decoration: none;
 }
+
 .caption-text {
     font-style: italic;
     font-size: 12px;
     line-height: 15px;
+    text-decoration: none;
+}
+
+.img-link {
+    text-decoration: none;
+}
+
+.img-link:hover {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /*================================== Modal */
@@ -374,20 +378,4 @@ footer {
     
 }
 
-/*@media(min-width: 1200px ) {
-    
-.image-margin {
-    height: 600px;
-    overflow: hidden;
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
-
-.image-margin img {
-    height: auto;
-    width: 100%;
-    margin-bottom: 0px;
-    }
-    
-}*/
 
