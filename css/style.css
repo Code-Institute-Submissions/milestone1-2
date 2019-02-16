@@ -215,19 +215,23 @@ ul {
     margin: 20px 15px 50px 15px; /* T R B L */
 }
 
-.image-margin {
-    height: 400px;
-    overflow: hidden;
-    margin-top: 0px;
-    margin-bottom: 20px;
+.imageX {
+    max-height: 300px;
 }
 
+.image-margin {
+    height: 400px;
+    margin-bottom: 10px;
+}
+/*
 .image-margin img {
     height: auto;
     width: 100%;
     margin-bottom: 0px;
 /*    max-height: 400px;*/
+
 }
+*/
 
 .caption {
     height: auto;
@@ -370,7 +374,7 @@ footer {
     
 }
 
-@media(min-width: 1200px ) {
+/*@media(min-width: 1200px ) {
     
 .image-margin {
     height: 600px;
@@ -385,5 +389,5 @@ footer {
     margin-bottom: 0px;
     }
     
-}
+}*/
 
