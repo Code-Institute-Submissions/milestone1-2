@@ -194,6 +194,10 @@ ul {
 
 /*================================== Image Galleries */
 
+.container {
+    margin: 0 auto;
+}
+
 .info {
     margin-top: 20px;
 }
