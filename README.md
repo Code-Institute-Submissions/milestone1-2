@@ -46,7 +46,8 @@ Here will be the first point where users will see who I am and what I do.
 
 #### Art / Photography gallery pages
 
-Here users can look at my image galleries
+Here users can look at my image galleries, users can click on thumbnails and images will
+open in a modal which will have the title, media used, and a description of the image.
 
 #### Contact Page - 
 
