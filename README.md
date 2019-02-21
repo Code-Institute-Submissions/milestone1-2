@@ -107,7 +107,8 @@ https://github.com/stiophan0309/milestone1
 
 ### Content
 
-All content on the site was written by myself.
+All content on the site was created and written by myself. No content from external
+sites was used.
 
 ### Media
 
