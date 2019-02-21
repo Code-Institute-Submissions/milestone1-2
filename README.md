@@ -101,8 +101,9 @@ All tests completed yielded satisfactory results.
 
 ## Deployment
 
+The project has been deployed on GitHub and can be found here: 
 
-## Credits
+https://github.com/stiophan0309/milestone1
 
 ### Content
 
