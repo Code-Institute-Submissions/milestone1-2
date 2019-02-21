@@ -61,10 +61,22 @@ contain info about current projects/work.
 
 ## Technologies Used
 
+The project uses the following technologies:
+
+HTML5 - https://www.w3schools.com/html/html_intro.asp
+* Used to provide a structural framework
+
+CSS 3 - https://www.w3schools.com/css/css_intro.asp
+* Used to implement the design of the project
+
+Javascript 5 - https://www.javascript.com
+* Used to provide some special effects and features
+
+
 <img src="https://camo.githubusercontent.com/904ade21b6fb63dec17555495bb36f749ba52023/68747470733a2f2f73332d75732d776573742d322e616d617a6f6e6177732e636f6d2f706c7567696e7365727665722f646f635265736f75726365732f737461636b2e737667" width="350px">
 
 ### In this project I also used:
-- [Bootstrap](http://getbootstrap.com/)
+* Bootstrap - http://getbootstrap.com/
     - I use **Bootstrap** to give the project a simple, responsive layout.
 
 ## Testing
