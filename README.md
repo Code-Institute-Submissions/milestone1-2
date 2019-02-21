@@ -81,12 +81,23 @@ Javascript 5 - https://www.javascript.com
 
 ## Testing
 
-#### The following was tested throughout the development cycle:
+The projects has been tested on different browsers and screen sizes and works as
+it should, the following features were also tested:
 
-* **Hyperlinks** - Tested links to nake sure they direct to the correct place
-* **Contact Page** - Tested fields to ensure the correct info is entered
-* **Layout** - Tested layout to make sure it breaks at the correct screen sizes
-* **Gallery** - Tested image galleries to make sure the images and information is displayed correctly
+1. **Hyperlinks**
+    * Tested links on all pages and tbhey direct to the correct pages.
+
+2. **Contact Page**
+    * The following was tested:
+    1. Go to Contact page.
+    2. Attempt to submit empty form - error about empty fields occurs.
+    3. Attempt to enter invalid email address - error about format appears.
+    4. Submit form with all fields entered correctly - success message appears.
+
+3. **Layout** - Tested layout to make sure it breaks at the correct screen sizes
+4. **Gallery** - Tested image galleries to make sure the images and information is displayed correctly
+
+All tests completed yielded satisfactory results.
 
 ## Deployment
 
