@@ -12,11 +12,12 @@ free to look at what I have done, do now and can do.
 
 The project will focus on anyone with an interest in art or photography or for 
 those looking for an artist or photographer for a project, gift, commission or
-any project they have in mind.
+any project they have in mind. The project uses a responsive approach to UX so
+it can be viewed on any device.
 
 Links to wireframes are [here](/wireframes/Desktop.png) and [here](/wireframes/Mobile.png)
 
-### User Stories
+#### User Stories
 
 As an artist, I want to look at the artists work so that I can get inspiration
 for my own work, or a commission.
